@@ -1,0 +1,40 @@
+.card {
+	background-color: white;
+	box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 4px 0px;
+	overflow: auto;
+	margin-bottom: 20px;
+}
+
+.card img {
+	width: 100%;
+}
+
+.card header {
+	margin: 10px;
+}
+
+.card header .category {
+	color: #81b441;
+}
+
+.card header h3 {
+	margin-top: 10px;
+	font-size: 20px;
+}
+
+.card p {
+	margin: 10px;
+	color: #777;
+}
+
+.card footer {
+	display: flex;
+	justify-content: space-between;
+	margin: 10px;
+	color: #777;
+	font-size: 12px;
+}
+
+.card footer .date {
+	text-align: right;
+}
